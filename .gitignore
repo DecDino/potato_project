@@ -1,0 +1,7 @@
+*.exe
+!sweetpotato.exe
+
+.vscode/
+
+table/
+freezer/
