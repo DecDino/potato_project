@@ -78,7 +78,6 @@ string getFreezerFilename(const string& type) {
     return "freezer/" + type + "_" + string(buffer) + "_chilled.png";
 }
 
-// 加熱冰箱紅薯（移回桌子並去掉_chilled）
 bool reheatPotato(const string& src) {
     size_t pos1 = src.find_last_of("/\\");
     string filename = (pos1 == string::npos) ? src : src.substr(pos1 + 1);
